@@ -1,0 +1,288 @@
+
+.tabla2{
+    top:60px;
+    position:relative; 
+    left: 47px;
+    max-width:325px;
+    height: 200px;
+
+}
+.tabla3{
+    top:125px;
+    position: relative;
+    left: 47px;
+    max-width:325px;
+    height: 100px;
+}
+table {
+    font-family: 'Rubik', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ td, th {
+    border: 1px solid #ddd;
+   
+    background-color: white
+
+}
+
+ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0b1d2e;
+    color: #dad9d9;
+}
+ul {
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden ;
+    background-color: #333;
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none ;
+    font-family: 'Rubik', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none ;
+    font-family: 'Rubik', sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    font-family: 'Rubik', sans-serif;
+}
+
+.active {
+    background-color: #7cb5ec;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.customers{
+    font-size: 14px;
+    position: relative;
+    top:50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.grafico1{
+    height:400px;
+    width:800px;
+    position:absolute;
+    left: 400px;
+    top: 150px;
+    background-color: #ffffff;
+}
+.grafico2{
+    height:400px;
+    width:800px;
+    position:absolute;
+    left: 400px;
+    top: 100px;
+    background-color: #ffffff;
+
+}
+
+.titulo2{
+    font-style:italic;
+    font-weight:bold;
+    font-size:2em;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+.titulo3{
+    font-style:italic;
+    font-weight:bold;
+    font-size:2em;
+    color:rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+}
+.total2{
+    font-family: 'Rubik', sans-serif;
+    background-color: #0b1d2e;
+    color: #dad9d9;
+    width:323px;
+    max-width: 100%;
+    border:1px solid black;
+    text-align: center;
+    position: relative;
+    left:47px;
+    top: 15px;
+    margin-top:44px;
+    
+}
+.total3{
+    font-family: 'Rubik', sans-serif;
+    background-color: #0b1d2e;
+    color: #dad9d9;
+    width:323px;
+    max-width: 100% ;
+    border:1px solid black;
+    text-align: center;
+    position: relative;
+    left:47px;
+    top:35px;
+    margin-top: 90px;
+}
+
+body{
+
+    /*buscar url img fondo*/
+    background: url("pictures/fondo.jpg");
+    background-size: cover !important;
+
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+
+p#header{
+    text-align: center;
+    font-size: 2.5em;
+    color:white;
+}
+
+p#subheader{
+    text-align: center;
+    color:#cecece;
+    margin-top:20px;
+    font-size: 1.3em;
+}
+
+header{
+    margin:100px auto;
+    width:800px;
+    height:0px;
+    background-color: white;
+}
+
+div.contenedor{
+    width: 200px;
+    height: 230px;
+    float:left;
+    -webkit-transition: height .4s;
+    
+}
+
+div#uno{
+    background-color: rgb(208,101,3);
+}
+
+div#dos{
+    background-color: rgb(233,147,26);
+}
+
+div#tres{
+    background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+    background-color: rgb(22,107,162);
+}
+
+div#cinco{
+    background-color: rgb(136, 32, 0);
+}
+
+img.icon{
+    display: block;
+    margin:50px auto;
+    background-color: rgba(255,255,255,.15);
+    width:40px;
+    padding:20px;
+    -webkit-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    -webkit-transition:box-shadow .4s;
+ 
+}
+
+img.img5{
+    margin: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+p.texto{
+    font-size: 1.2em;
+    color:white;
+    text-align: center;
+    padding-top:10px;
+    opacity: .6;
+    text-decoration:none;
+    -webkit-transition: padding-top .4s;
+
+}
+
+
+div.contenedor:hover{
+    height:250px;
+}
+
+div.contenedor:hover p.texto{
+    padding-top: 30px;
+    opacity: 1;
+}
+div.contenedor:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+ /* Style the tab */
+ .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
